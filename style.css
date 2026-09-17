@@ -1,0 +1,123 @@
+.framsida-bild {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.header2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+p {
+    font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
+    color: #0383a4;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+.länk2, a {
+    text-decoration: none;
+}
+.länk2:hover {
+    color: gray;
+}
+
+.länk-container:hover{
+    color: gray;
+}
+
+
+.länk2 {
+    color: #2976BB;
+    font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
+    font-size: 40px;
+
+    border: 2px solid #00ccff;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    width: 100px;
+    margin: auto;    
+}
+
+h1 {
+    text-align: center;
+    color: #00ccff;
+    font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
+    font-size: 100px;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #00ccff;
+    font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
+    font-size: 50px;
+}
+
+
+h4 {
+    text-align: center;
+    color: #2976BB;
+    font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
+    font-size: 20px;
+}
+
+h5 {
+    text-align: center; 
+    font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
+    color: #0c6176;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+.länk-container a{
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
+    color: #2976BB;
+}
+
+.sektion{
+    display: flex;
+}
+
+.border {
+    border: 2px solid #2976BB;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: white;
+    width: 500px;
+    height: 620px;
+    margin: auto;
+}
+
+.bild2 {
+    width: 350px;
+    height: 380px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+
