@@ -90,7 +90,7 @@ h5 {
     justify-content: center;
     align-items: center;
 
-    font-size: 30px;
+    font-size: 2rem;
     font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
     color: #2976BB;
 }
@@ -104,14 +104,14 @@ h5 {
     border-radius: 20px;
     padding: 25px;
     background-color: white;
-    width: 500px;
-    height: 620px;
+    width: 25rem;
+    height: 40rem;
     margin: auto;
 }
 
 .bild2 {
-    width: 350px;
-    height: 380px;
+    width: 20rem;
+    height: 23rem;
 
     display: block;
     margin-left: auto;
