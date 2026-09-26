@@ -7,6 +7,8 @@
     opacity: 0.5;
 }
 
+
+
 .header2 {
     text-align: center;
     margin-bottom: 50px;
@@ -43,16 +45,20 @@ body {
     border: 2px solid #00ccff;
     border-radius: 20px;
     padding: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    margin: auto;
     width: 100px;
-    margin: auto;    
+    display: block;
+    margin-top: 20px;
+    
 }
 
 h1 {
     text-align: center;
     color: #00ccff;
     font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
-    font-size: 100px;
+    font-size: 60px;
     margin-top: 10px;
 }
 
@@ -61,8 +67,16 @@ h2 {
     color: #00ccff;
     font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
     font-size: 50px;
+    
 }
 
+h1, h2 {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);;
+
+    margin: 0;
+    padding: 20px;
+}
 
 h4 {
     text-align: center;
@@ -75,17 +89,11 @@ h5 {
     text-align: center; 
     font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
     color: #0c6176;
-    margin-top: -40px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 
 
 .länk-container a{
-    margin-bottom: 50px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,6 +101,22 @@ h5 {
     font-size: 2rem;
     font-family: "plus Jakarta Sans", "Noto Serif JP", sans-serif;
     color: #2976BB;
+    padding: 20px;
+
+    border-bottom: 1px solid #b7dce5;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+}
+
+
+.länk-container {
+    width: 40rem;
+    margin: auto;
+    padding: 0px;
+
+    border-radius: 12px;
+    border: 2px solid #b7dce5;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .sektion{
@@ -102,21 +126,25 @@ h5 {
 .border {
     border: 2px solid #2976BB;
     border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    width: 20rem;
     padding: 25px;
-    background-color: white;
-    width: 25rem;
     height: 40rem;
     margin: auto;
 }
 
+
+
 .bild2 {
     width: 20rem;
-    height: 23rem;
+    height: 20rem;
 
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    border-radius: 20px;
 }
 
 
